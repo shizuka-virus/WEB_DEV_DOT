@@ -5,13 +5,13 @@ body{
 }
 button{
     color: white;
-    width: 200px;
-    height: 40px;
-    font-size: 26px;
+    width: 10rem;
+    height: 3rem;
+    font-size: 2rem;
     padding: 0;
     background-color: rgba(255, 0, 0, 0.773);
-    border: 5px white double;
-    border-radius: 20px;
+    border: .1rem white double;
+    border-radius: 6rem;
 }
 button:hover{
     background-color: white;
