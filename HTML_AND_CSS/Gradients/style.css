@@ -1,0 +1,15 @@
+.linear{
+    width: 20rem;
+    height: 10rem;
+    background-image: linear-gradient(to right,blue,yellow);
+}
+.radial{
+    width: 20rem;
+    height: 10rem;
+    background-image: radial-gradient(blue,yellow);
+}
+.conic{
+    width: 20rem;
+    height: 10rem;
+    background-image: conic-gradient(blue,yellow);
+}
