@@ -5,3 +5,14 @@
 #hh{
     text-align: center;
 }
+#sr{
+    display:inline;
+}
+#imm{
+    text-align:left;
+    width: 50%;
+}
+#bio{
+    text-align: right;
+    width: 50%;
+}
