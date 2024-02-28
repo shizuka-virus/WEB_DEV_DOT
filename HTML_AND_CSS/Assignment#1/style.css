@@ -9,10 +9,19 @@
     display:inline;
 }
 #imm{
-    text-align:left;
-    width: 50%;
+    text-align:center;
+}
+img{
+    height: 400px;
+    width: 400px;
 }
 #bio{
-    text-align: right;
-    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+#hh3{
+    text-align: center;
+}
+#ach{
+
 }
