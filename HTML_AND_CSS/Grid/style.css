@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    width: 700px;
+    height: 400px;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 40px 1fr 40px;
+    border-collapse: collapse;
+}
+.box1,.box2,.box3,.box4,.box5{
+    background-color: aqua;
+    border: 3px solid black;
+}
+.box1,.box5{
+   grid-column-start: 1;
+   grid-column-end: 4;
+}
