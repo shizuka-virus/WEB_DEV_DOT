@@ -36,6 +36,10 @@ img{
     padding-left: 20px;
     box-shadow: 0 0 0 5px rgb(236, 200, 200);
     grid-template-rows: 50px 40px 40px 1fr;
+    transition: transform 2s ease 0.01s;
+}
+.blogs:hover{
+    transform: scale(1.04);
 }
 .pi{
     color: green;
