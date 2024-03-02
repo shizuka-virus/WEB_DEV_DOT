@@ -35,7 +35,7 @@ img{
     padding: 7px;
     padding-left: 20px;
     box-shadow: 0 0 0 5px rgb(236, 200, 200);
-    grid-auto-rows: auto;
+    grid-template-rows: 50px 40px 40px 1fr;
 }
 .pi{
     color: green;
@@ -44,4 +44,9 @@ img{
     color: blue;
 }
 .date{
+    color: rgb(225, 210, 190);
+}
+a{
+    align-self: end;
+    margin-bottom: 20px;
 }
