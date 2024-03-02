@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+.wrapper{
+    display: grid;
+    grid-template-rows: 70px 1100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#pp1{
+    align-self: center;
+}
+.icon{
+    align-self: center;
+}
+.container{
+    display: grid;
+    grid-template-columns:580px 580px;
+    grid-template-rows: repeat(3,300px);
+    gap: 50px;
+    justify-content: center;
+}
+.blogs{
+    display: grid;
+    border: 1px solid rgb(247, 227, 227);
+    padding: 7px;
+    padding-left: 20px;
+    box-shadow: 0 0 0 5px rgb(236, 200, 200);
+    grid-auto-rows: auto;
+}
+.pi{
+    color: green;
+}
+.pw{
+    color: blue;
+}
+.date{
+}
