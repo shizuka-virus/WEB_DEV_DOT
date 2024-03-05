@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 1s ease 0.1s;
+}
+h1{
+    flex-grow: 2;
+    text-align: center;
+    width: 100%;
+}
+img:hover{
+    filter:grayscale(0%);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px 2px grey;
+}
