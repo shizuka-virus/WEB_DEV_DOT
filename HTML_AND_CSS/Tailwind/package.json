@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "feather-icons": "^4.29.1",
     "vite": "^5.1.5"
   },
   "devDependencies": {
