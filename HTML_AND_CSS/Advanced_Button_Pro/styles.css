@@ -19,6 +19,7 @@
   position: relative;
   z-index: 1;
   border: 0;
+  transition: all 1.5s;
 }
 .btn-pink::before{
   content: "";
@@ -38,4 +39,5 @@
 }
 .btn-pink:hover{
   cursor: pointer;
+  transform: scale(.9);
 }
