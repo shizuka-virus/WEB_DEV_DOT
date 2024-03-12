@@ -10,3 +10,8 @@ Array.prototype.push.apply(arr,brr);
 for(i in arr){
     console.log(arr[i]);
 }
+console.log();
+Array.prototype.push.apply(brr,arr);
+for(i in brr){
+    console.log(brr[i]);
+}
