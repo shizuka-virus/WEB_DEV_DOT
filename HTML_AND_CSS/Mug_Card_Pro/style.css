@@ -65,4 +65,7 @@ p{
 }
 button:hover{
     transform: scale(1.09);
+    background-color:white;
+    color: #3dbd7d;
+    border: 2px solid  #3dbd7d;
 }
