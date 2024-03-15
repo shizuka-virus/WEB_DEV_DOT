@@ -1,0 +1,17 @@
+.wrapper{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    width: 1080px;
+    justify-content: space-around;
+    list-style: none;
+    font-size: larger;
+    background-color: blue;
+    color: white;
+    
+}
