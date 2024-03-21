@@ -1,2 +1,2 @@
-alert("Thanks for your input!");
-var Mname="Farooq";
+var thankx="Hello I am virus";
+alert(thankx);
